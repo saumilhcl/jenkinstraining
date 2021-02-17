@@ -13,6 +13,12 @@ pipeline {
                 bat 'npm install'
             }
         }
+        stage('Test')
+        {
+            steps{
+                echo 'test cases script to be added here'
+            }
+        }
          stage('Email')
         {
             steps{
